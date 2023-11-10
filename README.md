@@ -13,17 +13,16 @@
 
 ## Description
 
-Habit Tracker is a single-page app taht allows you keep a record of your day to day habits. It is made using NodeJS 
-and React ts, React Routes, Passport JS
+Habit Tracker is a single-page app allowing you to keep a record of your day to day habits. It is made using NodeJS, React ts, React Routes, Passport JS.
 
 
 ## Features
 
-* create an account with using email and password
-* log in and authenticate the user with the passport-local strategy
+* create an account using email and password
+* log in and authenticate user with the passport-local strategy
 * add, remove and edit (e.g. ractivate) habits
 * filter out only active habits
-* mark finished reps and change the habit status from ‘in progress’ to ‘completed’ when you're done.
+* mark finished reps and change the habit status from ‘in progress’ to ‘completed’ when they are done
 * brief summary of all time performance (number of added versus completed habits and completetion rate)
 
 ## Screenshots
