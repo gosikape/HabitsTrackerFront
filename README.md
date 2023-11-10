@@ -16,7 +16,6 @@
 Habit Tracker is a single-page app taht allows you keep a record of your day to day habits. It is made using NodeJS 
 and React ts, React Routes, Passport JS
 
-### Video presentation
 
 ## Features
 
