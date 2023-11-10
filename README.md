@@ -5,9 +5,9 @@
 - [Description](#description)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Getting Started](#getting started)
+- [Getting Started](#getting_started)
 - [Challenges](#challenges)
-- [Bootstrapped with Create React App](#create react app)
+- [Bootstrapped with Create React App](#create_react_app)
 - [Contributors](#contributors)
 
 
