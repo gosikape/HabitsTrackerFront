@@ -70,7 +70,7 @@ The app should be running at: http://localhost:3000
 
 ## Challenges
 
-The project is in an early stage and it will be surely still develop. Nevertheless I learned a lot while building it and hope to learn a lot more.
+The project is in an early stage and will be subject for further development. Nevertheless I learned a lot while building it and looking forward to learning much more.
 
 
 ## Bootstrapped with Create React App
