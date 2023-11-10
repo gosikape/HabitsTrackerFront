@@ -6,7 +6,7 @@ interface Props {
     isVisible: boolean;
     toggle: () => void;
     onHabitsChange: () => void;
-};
+}
 
 export const Modal = (props: Props) => {
     const onOverlayClick = () => {

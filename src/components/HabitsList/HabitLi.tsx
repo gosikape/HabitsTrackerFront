@@ -6,7 +6,7 @@ import './Habit.css';
 interface Props {
     habit: HabitEntity;
     onHabitsChange: () => void;
-};
+}
 
 export const HabitLi = (props: Props) => {
     const [done, setDone] = useState(false);
@@ -32,7 +32,7 @@ Habit [ ${props.habit.title} ] has just been completed!`);
         const isActive = (props.habit.userRepeatCount + 1 < props.habit.totalRepeatCount);
 
         try {
-            const res = await fetch(`http://localhost:3001/habit/${props.habit.id}`, {
+            await fetch(`http://localhost:3001/habit/${props.habit.id}`, {
                 method: 'PATCH',
                 credentials: 'include',
                 headers: {

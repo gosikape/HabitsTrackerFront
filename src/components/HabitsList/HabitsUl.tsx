@@ -7,7 +7,7 @@ import './Habit.css';
 interface Props {
     habits: HabitEntity[];
     onHabitsChange: () => void;
-};
+}
 
 export const HabitsUl = (props: Props) => {
     const [activeOnly, setActiveOnly] = useState<boolean>(false);

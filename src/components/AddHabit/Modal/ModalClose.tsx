@@ -4,7 +4,7 @@ import './Modal.css';
 interface Props {
     toggle: () => void;
     onHabitsChange: () => void;
-};
+}
 
 export const ModalClose = (props: Props) => {
 

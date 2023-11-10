@@ -5,7 +5,7 @@ import './SingleHabit.css';
 
 interface Props {
     savedHabit: HabitEntity;
-};
+}
 
 export const SingleHabitEditForm = (props: Props) => {
     const [editedHabit, setEditedHabit] = useState(props.savedHabit);

@@ -4,7 +4,7 @@ import './LogoutButton.css';
 
 export const LogoutButton = () => {
     const logOut = () => {
-        const res = fetch(`http://localhost:3001/logout`, {
+         fetch(`http://localhost:3001/logout`, {
             credentials: "include",
         });
     };

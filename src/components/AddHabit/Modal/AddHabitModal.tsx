@@ -7,7 +7,7 @@ import './Modal.css';
 
 interface Props {
     onHabitsChange: () => void;
-};
+}
 
 export const AddHabitModal = (props: Props) => {
     const {isVisible, toggle} = useModal();

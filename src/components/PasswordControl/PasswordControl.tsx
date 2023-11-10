@@ -4,7 +4,7 @@ import './PasswordControl.css';
 interface Props {
     toggleShow: () => void;
     isPwd: boolean;
-};
+}
 
 export const PasswordControlButton = (props: Props) => {
     return (

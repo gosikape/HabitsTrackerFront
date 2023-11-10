@@ -4,7 +4,7 @@ import './HabitsFilter.css';
 interface Props {
     activeOnly: boolean;
     onActiveOnlyChange: any;
-};
+}
 
 export const HabitsFilter = (props: Props) => {
     return <form className="filter">
