@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+# Habit Tracker App (FE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Description](#description)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting started)
+- [Challenges](#challenges)
+- [Bootstrapped with Create React App](#create react app)
+- [Contributors](#contributors)
 
-In the project directory, you can run:
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Habit Tracker is a single-page app taht allows you keep a record of your day to day habits. It is made using NodeJS 
+and React ts, React Routes, Passport JS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Video presentation
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* create an account with using email and password
+* log in and authenticate the user with the passport-local strategy
+* add, remove and edit (e.g. ractivate) habits
+* filter out only active habits
+* mark finished reps and change the habit status from ‘in progress’ to ‘completed’ when you're done.
+* brief summary of all time performance (number of added versus completed habits and completetion rate)
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Sign up or create a new account using your email address
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Sign up or create a new account using your email address image](assets/images/login&register.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Create new habit
 
-### `npm run eject`
+![Create new habit image](assets/images/new_habit.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Manage your habits - preview, edit or delete your habits
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Manage your habits](assets/images/managing_habits.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Filter your habits to see only active ones
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![HabitsFilter](assets/images/habits_filter.png)
 
-## Learn More
+* Keep track of your performance
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Summary](assets/images/performance.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Started
+Below you'll find the instructions for setting up the project locally
+Clone repo and install dependencies
+
+### Clone the repo
+git clone https://github.com/gosikape/HabitsTrackerFront.git
+
+### Install dependencies
+
+```
+cd habit-tracker-front 
+npm install
+```
+###  Start development server
+
+```
+npm start
+```
+
+The app should be running at: http://localhost:3000 
+
+## Challenges
+
+The project is in an early stage and it will be surely still develop. Nevertheless I learned a lot while building it and hope to learn a lot more.
+
+
+## Bootstrapped with Create React App
+
+
+This project was bootstrapped with Create React App
+For the detailed description of available scripts see [CRA Documentation](https://github.com/facebook/create-react-app).
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+
+## Contributors
+Created with ❤️ by Małgorzata Oleś
+

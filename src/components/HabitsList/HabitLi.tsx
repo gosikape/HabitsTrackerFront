@@ -14,7 +14,7 @@ export const HabitLi = (props: Props) => {
     const markHabitAsDone = async (e: ChangeEvent) => {
         e.preventDefault()
 
-        if (props.habit.userRepeatCount + 1 > props.habit.totalRepeatCount) {
+        if (props.habit.userRepeatCount + 1 > props.habit.totalRepeatCount || Number(props.habit.isActive)===0) {
             alert(`Your work on this habit has been already completed!
                Congratulations!!!`);
             return;
