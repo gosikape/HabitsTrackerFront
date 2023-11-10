@@ -1,0 +1,119 @@
+.habits-summary {
+    display: inline-flex;
+    inline-size: 70%;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: 600;
+    margin-inline-start: -13%;
+    text-align: center;
+    font-variant-caps: small-caps;
+    padding-bottom: 15px;
+}
+
+.all-completed-habits {
+    background: rgb(89 255 89 / 52%);
+    backdrop-filter: blur(35px);
+    padding: 10px;
+    border-radius: 15px;
+    width: 175px;
+    box-shadow: 1px 7px 30px;
+}
+
+.all-added-habits {
+    background: rgb(255 235 188 / 71%);
+    backdrop-filter: blur(35px);
+    padding: 10px;
+    border-radius: 15px;
+    width: 175px;
+    box-shadow: 1px 7px 30px;
+}
+
+.habits-completion-rate {
+    background: rgb(117 193 228);
+    backdrop-filter: blur(35px);
+    padding: 10px;
+    border-radius: 15px;
+    width: 175px;
+    box-shadow: 1px 7px 30px;
+}
+
+
+.habits-list {
+    background: #d4d1ce;
+    border: 1px solid black;
+    border-collapse: separate;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    width: 70%;
+    overflow-wrap: break-word;
+    color: rgb(59, 55, 50);
+    margin: 20px 20px 10px;
+}
+
+.habits-list thead th {
+    background: #d8d1ce;
+    border-radius: 15px;
+    box-shadow: 1px 7px 30px;
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+}
+
+.thead tr {
+    border-radius: 15px;
+}
+
+.habits-list td, th {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+.habits-list a {
+    color: #2b2b2b;
+}
+
+.col-1 {
+    width: 6%;
+}
+
+.col-2 {
+    border: none;
+    width: 66%;
+    word-break: break-all;
+}
+
+.col-3 {
+    width: 5%;
+}
+
+.habits-list .col-4 {
+    width: 15%;
+    font-weight: 700;
+}
+
+.col-5 {
+    width: 8%;
+}
+
+.habitsList-header {
+    inline-size: 71%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.btn-open {
+    margin: 0;
+}
+
+.dlt, .edit {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(54, 53, 53);
+    cursor: pointer;
+}
+

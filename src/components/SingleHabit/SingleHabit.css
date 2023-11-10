@@ -1,0 +1,115 @@
+.single-habit-details {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(35px);
+    max-width: fit-content;
+    min-width: 73%;
+    margin-left: inherit;
+    margin-top: 20px;
+    text-align: -webkit-center;
+    padding: 1px 0 1px 0;
+}
+
+.single-habit-info {
+    margin-left: 25px;
+}
+
+.single-habit-info h2, .single-habit-info h3, .single-habit-info h4, .single-habit-info p {
+    color: black;
+    font-weight: 400;
+    width: 90%;
+    text-align: -webkit-center;
+    margin-inline-end: auto;
+}
+
+.single-habit-info p {
+    font-size: larger;
+    font-weight: 500;
+    margin-inline: 30px;
+}
+
+.single-habit-info h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 1em;
+}
+
+.single-habit-info h3 {
+    font-size: 25px;
+    margin-inline: inherit;
+    line-height: 1.2em;
+}
+
+.single-habit-info h4 {
+    font-size: 19px;
+    margin-inline-start: auto;
+}
+
+.single-habit-info p {
+    font-size: 18px;
+    word-break: break-word;
+    margin-inline-end: auto;
+}
+
+.habit-update-table {
+    background: #d4d1ce;
+    border: 1px solid black;
+    border-collapse: separate;
+    text-align: center;
+    font-size: 16px;
+    width: 95%;
+    overflow-wrap: break-word;
+    color: rgb(59, 55, 50);
+    margin: 50px 0 35px 0;
+}
+
+.habit-update-table td, th {
+    border: 1px solid black;
+    border-radius: unset;
+    padding: 5px;
+}
+
+.habit-update-table td {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.habit-update, .habit-update-num {
+    background: inherit;
+    border: none;
+    box-shadow: 2px 1px 1px rgba(63, 59, 55, 0.82);
+    padding: 15px 10px;
+    width: 90%;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.habit-update-num {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.btn-submit {
+    margin: 35px 0 35px 0;
+    margin-inline: 30px;
+}
+
+.single-habit-details button {
+    float: left;
+}
+
+a.single-habit-info {
+    font-size: 17px;
+    font-weight: 600;
+    margin-inline: 50px;
+    color: #453429ff;
+}
+
+.update-result-info {
+    margin: 100px 0 45px 30px;
+    width: 60%;
+    word-break: break-word;
+    background: #d4d1ce;
+    border: 5px solid forestgreen;
+    padding: 40px;
+    text-align: -webkit-center;
+}

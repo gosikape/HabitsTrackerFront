@@ -1,0 +1,52 @@
+.login-view {
+    text-align: -webkit-center;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(35px);
+    max-width: fit-content;
+    min-width: 40%;
+    margin-left: 30%;
+    padding: 5px;
+    margin-top: 8%;
+    border-radius: 20px;
+}
+
+.login-view h1 {
+    padding: unset
+}
+
+.login-view p {
+    margin: 15px;
+    display: block;
+    font-size: 21px;
+    font-weight: 350;
+    color: maroon;
+}
+
+.login-form {
+    text-align: -webkit-center;
+}
+
+.login-detail {
+    font-size: 15px;
+    margin-top: 21px;
+    width: 50%;
+    display: -webkit-inline-flex;
+    vertical-align: text-bottom;
+    margin-inline-start: 2%;
+    border: inset;
+}
+
+.btn-submit-login {
+    padding: 11px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-variant-caps: small-caps;
+}
+
+.pwd-control-log {
+    opacity: 99%;
+    position: relative;
+    top: -111px;
+    left: 61%;
+    width: fit-content;
+}
